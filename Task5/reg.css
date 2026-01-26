@@ -1,17 +1,16 @@
 body{
     margin: 0;
-    font-family: 'Times New Roman';
-    background-color: #f2f2f2;
+    font-family: 'Times New Roman', serif;
+    background-color: hsl(140, 82%, 76%);
 }
 
 .container{
     width: 350px;
     margin: 100px auto;
-    background-color: whitesmoke;
+    background-color: rgb(20, 235, 135);
     padding: 30px;
-    border-radius: 8px;
-    /* horizontal, vertical blurry */
-    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
@@ -26,42 +25,47 @@ body{
 .label{
     display: block;
     margin-top: 10px;
+    font-weight: bold;
+    color: #666;
 }
 
-input{
+.input{
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     margin-top: 5px;
     font-size: 14px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 8px;
     box-sizing: border-box;
 }
 
 .btn{
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin-top: 20px;
-    background-color: #4CAF50;
+    background-color: #1f6821;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .btn:hover{
-    background-color: #45a049;
+    background-color: #48cf8e98;
 }
 
 .text{
     margin-top: 20px;
     font-size: 14px;
+    color: #666;
 }
 
 .link{
-    color: #4CAF50;
-    text-decoration: none;
+    color: #1f6821;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .link:hover{
